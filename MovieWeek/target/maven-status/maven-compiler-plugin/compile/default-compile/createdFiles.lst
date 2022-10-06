@@ -3,6 +3,7 @@ com\javaunit3\springmvc\BatmanMovie.class
 com\javaunit3\springmvc\model\MovieEntity.class
 com\javaunit3\springmvc\MovieController.class
 com\javaunit3\springmvc\HibernateConfig.class
+com\javaunit3\springmvc\model\VoteEntity.class
 com\javaunit3\springmvc\MovieApp.class
 com\javaunit3\springmvc\BestMovieService.class
 com\javaunit3\springmvc\Movie.class

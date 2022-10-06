@@ -1,6 +1,10 @@
-<!-- P2-3c,d:  In the templates directory, create a new file bestMovie.html.
-    In bestMovie.html, use Thymeleaf syntax to output “The best movie is: ” and the best movie retrieved from the BestMovieService.
-    P2-4b: link index.html
+<!--
+P2-3
+  c: templates directory, create a new file bestMovie.html.
+  d: In bestMovie.html, use Thymeleaf syntax to output “The best movie is: ” and the best movie retrieved from the BestMovieService.
+P2-4b: link index.html
+
+Part 4-4c: display the best movie title and the names of who voted for it on the bestMovie.html
 -->
 
 
@@ -11,7 +15,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 </head>
 <body>
-  <p th:text="'The best movie is: ' + ${BestMovie}" />
+
+  <p th:text="'The best movie is: ' + ${bestMovie}" />
+
+  <p th:text="'Voters: ' + ${bestMovieVoters}" />
+
   <a href="/">Home</a>
 </body>
 </html>
