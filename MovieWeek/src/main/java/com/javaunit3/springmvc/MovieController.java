@@ -103,7 +103,5 @@ public class MovieController {
         session.getTransaction().commit();
 
         return "addMovie";
-
     }
-
 }
