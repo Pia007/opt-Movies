@@ -23,7 +23,6 @@ public class HibernateConfig {
 }
 
 /*
-
 Part 3: Hibernate
 P3-1: set up db
 P3-2: Hibernate setup - resources/hibernate.cfg.xml
@@ -37,6 +36,5 @@ P3-4: Create model pkg in com.javunit3.springmvc
 P3-5: Create an add movie page - in templates directory
 
 P4 - 2b: add the VoteEntity class to your session factory configuration in HibernateConfig.java.
-
 
  */

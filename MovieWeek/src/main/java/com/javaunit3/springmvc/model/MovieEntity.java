@@ -68,6 +68,7 @@ public class MovieEntity {
 
     public void setGenre(String genre) { this.genre = genre; }
 }
+
 /*
 P3- 4: MovieEntity class
    - define it as a Hibernate entity that uses the "movies" table
@@ -82,6 +83,5 @@ P4 - 1c: Modify MovieEntity to have a private field of type List<VoteEntity>
         - indicate a one to many mapping and join column named “movie_id”.
    - include getters and setters.
    - create an addVote() method that adds a vote to the list.
-
 
 */

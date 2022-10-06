@@ -1,7 +1,5 @@
 package com.javaunit3.springmvc;
-/*
 
-*/
 import com.javaunit3.springmvc.model.MovieEntity;
 import com.javaunit3.springmvc.model.VoteEntity;
 import org.hibernate.Session;
